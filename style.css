@@ -1,0 +1,138 @@
+
+html {
+    margin:    0 auto;
+    max-width: 991px;
+}
+
+body {
+
+	font: 'Raleway', sans-serif;
+	color: rgba(0,0,0,1);  
+	text-align: center;
+	/*text-transform: uppercase;*/
+	/*letter-spacing: .5em;*/
+	top: 15%;
+/*	background: linear-gradient(yellow, blue);
+	background-size: 991px 100%;
+	background-position: center; */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+	color: rgba(250, 250, 250, 1);
+}
+h4 {
+	display: inline;
+}
+hr {
+	border: none;
+    height: 4px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/*Title Styles*/
+.title-bar {
+	background: rgba(37, 58, 122, 1);
+	padding: 30px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}
+
+/*Box Styles*/
+.introBox {
+	padding: 30px 30px 30px 30px;
+}
+
+.orangeBox {
+	background-color: rgba(255, 226, 163, .6);
+}
+
+.blueBox {
+	background-color: rgba(134, 150, 197, .3);
+}
+
+.boxStyle {
+	border: 3px solid white;
+	padding: 30px 30px 30px 30px;
+}
+
+.removePadding {
+	padding: 0px;
+	margin: 0px
+}
+
+/*Image Styles*/
+.deskEmoji {
+	max-height: 100%;
+ 	max-width: 100%;
+}
+.mobileEmoji {
+	max-height: 50px;
+ 	max-width: 50px;
+}
+
+
+
+
+/*Development Aids*/
+
+.showBox {
+/*	background-color: rgba(0, 0, 0, 0.2);*/
+	border: 3px solid black;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .title-bar {
+    padding: 10px;
+  }
+  h1 {
+  	font-size: 5vw;
+  	letter-spacing: .25em;
+  }
+}
+
+
+
+
+/*Palette URL: http://paletton.com/#uid=23O0u0kleqtbzEKgVuIpcmGtdhZ 
+
+
+
+As hex codes 
+
+.color-primary-0 { color: #3B508E }	/Main Primary color 
+.color-primary-1 { color: #8696C5 }
+.color-primary-2 { color: #586BA5 }
+.color-primary-3 { color: #253A7A }
+.color-primary-4 { color: #122661 }
+
+.color-complement-0 { color: #D3A747 }	Main Complement color 
+.color-complement-1 { color: #FFE2A3 }
+.color-complement-2 { color: #F5CC73 }
+.color-complement-3 { color: #B58826 }
+.color-complement-4 { color: #8F660D }
+
+
+
+As RGBa codes 
+
+.rgba-primary-0 { color: rgba( 59, 80,142,1) }	 Main Primary color 
+.rgba-primary-1 { color: rgba(134,150,197,1) }
+.rgba-primary-2 { color: rgba( 88,107,165,1) }
+.rgba-primary-3 { color: rgba( 37, 58,122,1) }
+.rgba-primary-4 { color: rgba( 18, 38, 97,1) }
+
+.rgba-complement-0 { color: rgba(211,167, 71,1) }	Main Complement color 
+.rgba-complement-1 { color: rgba(255,226,163,1) }
+.rgba-complement-2 { color: rgba(245,204,115,1) }
+.rgba-complement-3 { color: rgba(181,136, 38,1) }
+.rgba-complement-4 { color: rgba(143,102, 13,1) }*/
