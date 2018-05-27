@@ -64,21 +64,35 @@
 			3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
 			</div> 
 			<div class="row removePadding">
-				<div class="col-6 col-md-3 showBox">
+				<div class="col-7 col-md-3 showBox">
 					Lable for each detail
-					4 wide on medium. 6 wide on small.
+					4 wide on medium. 7 wide on small.
 				</div>
 				<div class="col d-none d-md-block showBox">  
-					<hr><!-- new row 4 wide. This should show below medium and disappear above medium.   -->
+					<form>
+					  <div class="form-group">
+					    <!-- <label for="formControlRange"></label> -->
+					    <input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+					  </div>
+					</form>
+					<!-- <hr>new row 4 wide. This should show below medium and disappear above medium.   -->
 				</div>
-				<div class="col-6 col-md-5 col-lg-4 showBox">
+				<div class="col-5 col-md-5 col-lg-4 showBox">
 					<form>
 					  <div class="row">
-					    <div class="col-12 col-md-6">
-					      <input type="text" class="form-control" placeholder="First name">
+					    <div class="col-12 col-md-6 form-box-control showBox">
+					      <input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30" > 
+					      <span class="unit">years</span>
 					    </div>
-					    <div class="col-12 col-md-6">
-					      <input type="text" class="form-control" placeholder="Last name">
+					    <div class="col-12 col-md-6 form-box-control showBox">
+					    <select class="form-control" id="exampleFormControlSelect1">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>	
+					      <!-- <input type="text" class="form-control" placeholder="Last name"> -->
 					    </div>
 					  </div>
 					</form>
@@ -117,6 +131,8 @@ To siaplay on xs and small. Hide on md up
 		<h2>Know how much your advisor costs</h2>
 		<h3>Some content can go here</h3>
 		<h3>Some content can go here</h3>
+		<input style="display:inline-block; padding-right:20px; text-align:right;" value="50"></input>
+		<span style="margin-left:-20px;">Yrs</span>
 	</div>
 		<script type="text/javascript" src="script.js"></script>
 
@@ -126,3 +142,7 @@ To siaplay on xs and small. Hide on md up
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!-- <input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30" style="display:inline-block;  text-align:left;"> 
+<span style="margin-left:-50px;">years</span> -->

@@ -34,6 +34,7 @@ hr {
     margin-top: 10px;
 }
 
+
 /*Title Styles*/
 .title-bar {
 	background: rgba(37, 58, 122, 1);
@@ -75,18 +76,49 @@ hr {
  	max-width: 50px;
 }
 
+/*Forms*/
+.form-control {
+	/*display: inline-block;*/
+	/*text-align:left;*/
+	width: 100%;
+	max-width: 7em;
+}
 
+.form-box-control {
+	padding: 2px;
 
+}
+
+.form-control-range {
+	margin-top: 15px;
+	}
+
+.unit { 
+	position: absolute; 
+	left: 50px; 
+	top: 9px; 
+	z-index: 9; 
+}
+
+/*https://www.w3schools.com/tags/tag_fieldset.asp*/
 
 /*Development Aids*/
+
 
 .showBox {
 /*	background-color: rgba(0, 0, 0, 0.2);*/
 	border: 3px solid black;
 }
 
+/*Testing*/
 
 
+/*Turn off spinners on all devices*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 
 
 
