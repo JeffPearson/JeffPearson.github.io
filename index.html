@@ -12,106 +12,277 @@
 </head>
 <body>
 	<div id="bodyProperties">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">Features</a>
-				<a class="nav-item nav-link" href="#">Pricing</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#">Features</a>
+					<a class="nav-item nav-link" href="#">Pricing</a>
+					<a class="nav-item nav-link disabled" href="#">Disabled</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="title-bar">
+			<h1>Advisor fees calculator</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-6 showBox orangeBox introBox">
+					<h2>How much more will end up with if you avoid financial fees?</h2>
+					<p>Use our advisor fees calculator to understand what financial fees cost you.</p>
+					<p>Saving a few percent each year and allowing that money to compound adds up. Now you can see the difference it makes</p>
+				</div>
+				<div class="col-md-6 showBox">
+					2 of 2 <br> 
+					A picture of something will go here
+				</div>
+			</div>
+			<div class="row showBox boxStyle blueBox">
+				Your timeline:
+			</div>
+
+
+			<div class="row showBox boxStyle orangeBox">  <!-- starting ammount and contributions  -->
+
+				<div class="d-md-none showBox">
+					1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
+					<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
+				</div> 
+				<div class="d-none d-md-block col-md-2 showBox">
+					<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
+
+				</div>
+
+				<div class="col-md-10 removePadding showBox"> 
+					<div class="d-none d-md-block showBox">
+						3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
+					</div> 
+					<div class="row removePadding">
+						<div class="col-7 col-md-3 showBox">
+							Lable for each detail
+							4 wide on medium. 7 wide on small.
+						</div>
+						<div class="col d-none d-md-block showBox">  
+							<form>
+								<div class="form-group">
+									<input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+								</div>
+							</form>
+						</div>
+						<div class="col-5 col-md-5 col-lg-4 showBox">
+							<form>
+								<div class="row">
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
+										<span class="unit">years</span>
+									</div>
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>	
+
+									</div>
+								</div>
+							</form>
+							Input and drop down for each detail. 
+							new row 4 wide on medium. 6 wide on small <br>.<br>.<br>.
+						</div>
+					</div>
+					<div class="showBox">
+						4 this is the content of each section on all devices. <br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.
+					</div>
+				</div> 
+			</div>
+
+
+			<div class="row showBox boxStyle blueBox"> <!-- years for investment to grow -->
+
+				<div class="d-md-none showBox">
+					1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
+					<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
+				</div> 
+				<div class="d-none d-md-block col-md-2 showBox">
+					<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
+
+				</div>
+
+				<div class="col-md-10 removePadding showBox"> 
+					<div class="d-none d-md-block showBox">
+						3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
+					</div> 
+					<div class="row removePadding">
+						<div class="col-7 col-md-3 showBox">
+							Lable for each detail
+							4 wide on medium. 7 wide on small.
+						</div>
+						<div class="col d-none d-md-block showBox">  
+							<form>
+								<div class="form-group">
+									<input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+								</div>
+							</form>
+						</div>
+						<div class="col-5 col-md-5 col-lg-4 showBox">
+							<form>
+								<div class="row">
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
+										<span class="unit">years</span>
+									</div>
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>	
+
+									</div>
+								</div>
+							</form>
+							Input and drop down for each detail. 
+							new row 4 wide on medium. 6 wide on small <br>.<br>.<br>.
+						</div>
+					</div>
+					<div class="showBox">
+						4 this is the content of each section on all devices. <br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.
+					</div>
+				</div> 
+			</div>
+
+			<div class="row showBox boxStyle orangeBox"> <!-- Assumend rate of return -->
+
+				<div class="d-md-none showBox">
+					1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
+					<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
+				</div> 
+				<div class="d-none d-md-block col-md-2 showBox">
+					<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
+
+				</div>
+
+				<div class="col-md-10 removePadding showBox"> 
+					<div class="d-none d-md-block showBox">
+						3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
+					</div> 
+					<div class="row removePadding">
+						<div class="col-7 col-md-3 showBox">
+							Lable for each detail
+							4 wide on medium. 7 wide on small.
+						</div>
+						<div class="col d-none d-md-block showBox">  
+							<form>
+								<div class="form-group">
+									<input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+								</div>
+							</form>
+						</div>
+						<div class="col-5 col-md-5 col-lg-4 showBox">
+							<form>
+								<div class="row">
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
+										<span class="unit">years</span>
+									</div>
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>	
+
+									</div>
+								</div>
+							</form>
+							Input and drop down for each detail. 
+							new row 4 wide on medium. 6 wide on small <br>.<br>.<br>.
+						</div>
+					</div>
+					<div class="showBox">
+						4 this is the content of each section on all devices. <br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.
+					</div>
+				</div> 
+			</div>
+
+			<div class="row showBox boxStyle blueBox"> <!-- Advisor fees and mutual fund fees -->
+
+				<div class="d-md-none showBox">
+					1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
+					<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
+				</div> 
+				<div class="d-none d-md-block col-md-2 showBox">
+					<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
+
+				</div>
+
+				<div class="col-md-10 removePadding showBox"> 
+					<div class="d-none d-md-block showBox">
+						3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
+					</div> 
+					<div class="row removePadding">
+						<div class="col-7 col-md-3 showBox">
+							Lable for each detail
+							4 wide on medium. 7 wide on small.
+						</div>
+						<div class="col d-none d-md-block showBox">  
+							<form>
+								<div class="form-group">
+									<input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+								</div>
+							</form>
+						</div>
+						<div class="col-5 col-md-5 col-lg-4 showBox">
+							<form>
+								<div class="row">
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
+										<span class="unit">years</span>
+									</div>
+									<div class="col-12 col-md-6 form-box-control showBox">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>	
+
+									</div>
+								</div>
+							</form>
+							Input and drop down for each detail. 
+							new row 4 wide on medium. 6 wide on small <br>.<br>.<br>.
+						</div>
+					</div>
+					<div class="showBox">
+						4 this is the content of each section on all devices. <br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.
+					</div>
+				</div> 
+			</div>
+
+
+
+
+
+
+
+			<div class="row showBox boxStyle blueBox">
+				Tell us your timeline:
 			</div>
 		</div>
-	</nav>
-
-	<div class="title-bar">
-		<h1>Advisor fees calculator</h1>
-	</div>
-
-<div class="container-fluid">
-  <div class="row flex-column-reverse flex-md-row">
-    <div class="col-md-6 showBox orangeBox introBox">
-      <h2>How much more will end up with if you avoid financial fees?</h2>
-      <p>Use our advisor fees calculator to understand what financial fees cost you.</p>
-      <p>Saving a few percent each year and allowing that money to compound adds up. Now you can see the difference it makes</p>
-    </div>
-    <div class="col-md-6 showBox">
-      2 of 2 <br> 
-      A picture of something will go here
-    </div>
-  </div>
-  <div class="row showBox boxStyle blueBox">
-  	Your timeline:
-  </div>
-   <div class="row showBox boxStyle orangeBox">
-
-  		<div class="d-md-none showBox">
-			1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
-			<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
-		</div> 
-		<div class="d-none d-md-block col-md-2 showBox">
-			<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
-			
-		</div>
-		
-		<div class="col-md-10 removePadding showBox"> 
-			<div class="d-none d-md-block showBox">
-			3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
-			</div> 
-			<div class="row removePadding">
-				<div class="col-7 col-md-3 showBox">
-					Lable for each detail
-					4 wide on medium. 7 wide on small.
-				</div>
-				<div class="col d-none d-md-block showBox">  
-					<form>
-					  <div class="form-group">
-					    <input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
-					  </div>
-					</form>
-				</div>
-				<div class="col-5 col-md-5 col-lg-4 showBox">
-					<form>
-					  <div class="row">
-					    <div class="col-12 col-md-6 form-box-control showBox">
-					      <input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
-					      <span class="unit">years</span>
-					    </div>
-					    <div class="col-12 col-md-6 form-box-control showBox">
-					    <select class="form-control" id="exampleFormControlSelect1">
-					      <option>1</option>
-					      <option>2</option>
-					      <option>3</option>
-					      <option>4</option>
-					      <option>5</option>
-					    </select>	
-
-					    </div>
-					  </div>
-					</form>
-					Input and drop down for each detail. 
-					new row 4 wide on medium. 6 wide on small <br>.<br>.<br>.
-				</div>
-			</div>
-			<div class="showBox">
-			4 this is the content of each section on all devices. <br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.
-			</div>
-		</div> 
-  </div>
-
-
-
-
-
-
-
-
-   <div class="row showBox boxStyle blueBox">
-  	Tell us your timeline:
-  </div>
-</div>
 
 		<h1>Index Advocate</h1>
 		<h2>Know how much your advisor costs</h2>
@@ -120,9 +291,9 @@
 		<input style="display:inline-block; padding-right:20px; text-align:right;" value="50">
 		<span style="margin-left:-20px;">Yrs</span>
 	</div>
-		<script type="text/javascript" src="script.js"></script>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
