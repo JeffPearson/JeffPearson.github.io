@@ -65,6 +65,10 @@ hr {
 	padding: 0px;
 	margin: 0px
 }
+/*Text Styles*/
+.termText {
+	padding: 12px 0px 0px 0px;
+}
 
 /*Image Styles*/
 .deskEmoji {
@@ -92,6 +96,17 @@ hr {
 .form-control-range {
 	margin-top: 15px;
 	}
+
+.unitDollars { 
+	position: absolute; 
+	left: 10px; 
+	top: 9px; 
+	z-index: 9; 
+}
+
+.dollarAlign {
+	text-align: right;
+}
 
 .unit { 
 	position: absolute; 

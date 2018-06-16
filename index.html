@@ -51,8 +51,14 @@
 			<div class="row showBox boxStyle orangeBox">  <!-- starting ammount and contributions  -->
 
 				<div class="d-md-none showBox">
-					1 this is the title and image section on a phone. To display on xs and small. Hide on md up........................................
-					<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji"><h4>This is the title on mobile</h4>
+					<div class="row removePadding">
+						<div class="col-2 showBox">
+							<img class="mobileEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
+						</div>
+						<div class="col-10 showBox">
+							<h4>Your Savings and Contributions *Mobile*</h4>
+						</div>
+					</div>
 				</div> 
 				<div class="d-none d-md-block col-md-2 showBox">
 					<img class="deskEmoji" src="Images/nicubunu-Emoticons-Hand-waving-face-300px.png" alt="hand waving emoji">
@@ -61,17 +67,16 @@
 
 				<div class="col-md-10 removePadding showBox"> 
 					<div class="d-none d-md-block showBox">
-						3 this is the title of each section on a computer. To display on medium and up. Hide on small on xs.
+						<h4>Your Savings and Contributions *Computer*</h4>
 					</div> 
 					<div class="row removePadding">
-						<div class="col-7 col-md-3 showBox">
-							Lable for each detail
-							4 wide on medium. 7 wide on small.
+						<div class="col-7 col-md-3 termText showBox">
+							Starting Ammount
 						</div>
 						<div class="col d-none d-md-block showBox">  
 							<form>
 								<div class="form-group">
-									<input type="range" class="inputRange form-control-range" min ="0" max="50" step ="1" value ="30">
+									<input type="range" class="inputRange form-control-range" min ="0" max="300000" step ="1" value ="30000">
 								</div>
 							</form>
 						</div>
@@ -79,8 +84,8 @@
 							<form>
 								<div class="row">
 									<div class="col-12 col-md-6 form-box-control showBox">
-										<input type="number" id="num1" class="inputNuber form-control" min ="0" max="50" value ="30"> 
-										<span class="unit">years</span>
+										<input type="number" id="num1" class="inputNuber form-control dollarAlign" min ="0" max="300000" value ="30000"> 
+										<span class="unitDollars">$</span>
 									</div>
 									<div class="col-12 col-md-6 form-box-control showBox">
 										<select class="form-control" id="exampleFormControlSelect1">
